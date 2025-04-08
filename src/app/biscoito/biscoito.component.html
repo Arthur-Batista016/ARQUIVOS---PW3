@@ -1,0 +1,10 @@
+<!--ARTHUR BATISTA E GABRIEL WHANDERSON-->
+<div class="container">
+
+  <app-biscoito-img [quebrado]="ehQuebrado"></app-biscoito-img>
+  <app-frases [visible]="ehQuebrado"></app-frases>
+  <app-botao [label]="'Quebrar Biscoito'" (clicked)="quebrar()"></app-botao>
+  <app-botao  [label]="'Reiniciar Biscoito'" [primary]="false" (clicked)="reiniciar()">Reiniciar Biscoito</app-botao>
+</div>
+
+
